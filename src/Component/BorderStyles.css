@@ -1,0 +1,11 @@
+.box{
+    background-color:transparent;
+    width:100px;
+    height:100px;
+    border-radius:5px;
+    padding:5px;
+    margin:20px;
+    align-items: center;
+    border: 3px solid black;
+    display: inline-block;
+}
