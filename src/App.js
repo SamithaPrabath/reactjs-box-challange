@@ -6,12 +6,12 @@ import {Arr} from './Data/DataArray';
 function App() {
   const [dataArrayState,setDataArrayState]=React.useState(Arr);
   function toggele(id){
-    console.log("clicked");
     setDataArrayState(prevArr=>{
       return prevArr.map(sqr=>{
         return sqr.id===id?{...sqr,on:!sqr.on}:sqr
       })
     })
+
   }
   const dataArray=dataArrayState.map(squre=>{
     return(

@@ -7,7 +7,6 @@ export default function Box(props){
         backgroundColor:props.on?"black":"transparent"
     }
     
-    console.log(props.id);
     return(
         <div 
             style={styles} 
